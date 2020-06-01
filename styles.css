@@ -1,0 +1,127 @@
+body {
+    background-image: linear-gradient(#bbbbbb, #ffffff)
+}
+
+#name {
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+    color: #333333;
+}
+
+#degree {
+    font-family: 'Cinzel', serif;
+    color: #555555;
+}
+
+.subsection {
+    flex: 1;
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: solid #999999;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-alert {
+    position: absolute;
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 50px;
+}
+
+.alert-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #555555;
+    font-size: 14px;
+    font-family: 'Cinzel', serif;
+}
+#header-banner {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+}
+
+.subhead-title {
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    color: #333333;
+}
+
+.subhead-container {
+    margin-left: 25px;
+    margin-right: 25px;
+    flex: 1;
+}
+
+#card-img-top {
+    opacity: 0;
+}
+
+.language-label {
+    color: #555555;
+    font-family: 'Cinzel', serif;
+}
+
+#bio {
+    text-align: justify;
+}
+
+#con-im {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#treal-logo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 325px;
+    width: 325px;
+    border-radius: 2px;
+}
+
+#cortex-logo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+    height: 325px;
+    width: 325px;
+    padding: 100px 20px 100px 20px;
+    border-radius: 2px;
+}
+#cortex-logo-container {
+    padding-top: 100px;
+}
+
+
+.list-el {
+    font-family: 'Cinzel', serif;
+}
+
+#treal-header {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    color: #333333;
+}
+
+#cortex-header{
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    color: #333333;
+}
+
+#relevant-courses-header {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: #333333;
+}
+
+#projects-div {
+    position: relative;
+}

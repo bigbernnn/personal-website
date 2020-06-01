@@ -1,0 +1,188 @@
+<!--Use cmd: npx http-server -c-1 in directory to mount onto localhost:8080-->
+<!--TODO: add linkedIn button and Find Project button-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/scripts/index.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <title>Nicolas Bernier</title>
+    
+  </head>
+  <body>
+    <div class="header-alert">
+      <p class="alert-message">This website was created in order to complement the contents of my C.V.</p>
+    </div>
+    <div class="jumbotron" id="header-banner">
+      <hr class="my-4" style="opacity: 0;">
+      <div class="header-container">
+        <h1 class="display-4" id="name">Nicolas Bernier</h1>
+        <p class="lead" id="degree">Computer Applications (BCompSc) Minor Economics</p>
+        <button id="find-projects-button" type="button" class="btn btn-primary">Find Projects</button>
+      </div>
+    </div>
+    <hr class="my-4">
+    <div class="subsection">
+      <h1 class="subhead-title">Applications & Platforms</h1>
+      <hr class="my-4">
+      <div class="subhead-container">
+        <div class="row">
+          <div class="col-6 col-md-2">
+            <img src="images/java.jpg" class="card-img-top">
+            <h5 class="language-label">Java</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/javascript.png" class="card-img-top">
+            <h5 class="language-label">JavaScript</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/html.png" class="card-img-top">
+            <h5 class="language-label">HTML</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/css.jpg" class="card-img-top">
+            <h5 class="language-label">CSS</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/python.jpg" class="card-img-top">
+            <h5 class="language-label">Python</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/cSharp.png" class="card-img-top">
+            <h5 class="language-label">C#</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-2">
+            <img src="images/swift.jpg" class="card-img-top">
+            <h5 class="language-label">Swift</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/nodejs.jpg" class="card-img-top">
+            <h5 class="language-label">Node.JS</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/mysql.png" class="card-img-top">
+            <h5 class="language-label">MySQL</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/stripe.jpg" class="card-img-top">
+            <h5 class="language-label">Stripe API</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/firebase.png" class="card-img-top">
+            <h5 class="language-label">Firebase</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/oauth.jpg" class="card-img-top">
+            <h5 class="language-label">OAuth</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-2">
+            <img src="images/powershell.png" class="card-img-top">
+            <h5 class="language-label">Powershell</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/git.png" class="card-img-top">
+            <h5 class="language-label">Git</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/reactnative.png" class="card-img-top">
+            <h5 class="language-label">React Native</h5>
+          </div>
+          <div class="col-6 col-md-2">
+            <img src="images/pandas.png" class="card-img-top">
+            <h5 class="language-label">Pandas & Seaborn</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-4">
+    <div class="subsection">
+      <h1 class="subhead-title">Education</h1>
+      <hr class="my-4">
+      <div class="subhead-container">
+        <div class="row">
+          <div class="col-6 col-md-6">
+            <img id="con-im" src="images/concordia.jpg" class="card-img-top">
+          </div>
+          <div class="col-6 col-md-4">
+            <h5 id="relevant-courses-header">Relevent Courses</h5>
+            <ul>
+              <li class="list-el">Object Oriented Programming I & II</li>
+              <li class="list-el">Prob. & Stats. For Comp. SC.</li>
+              <li class="list-el">System Hardware</li>
+              <li class="list-el">Data Structures & Algorithms</li>
+              <li class="list-el">Principle of Programming Languages</li>
+              <li class="list-el">Software Engineering Methods</li>
+            </ul>
+            <ul>
+              <li class="list-el">Advanced Program Design C++ (Fall 2020)</li>
+              <li class="list-el">Theoretical Computer Science (Fall 2020)</li>
+              <li class="list-el">Operating Systems (Fall 2020)</li>
+              <li class="list-el">Databases (Winter 2021)</li>
+              <li class="list-el">Symbolic Computations (Winter 2021)</li>
+              <li class="list-el">Data Communication and Computer Networks (Winter 2021)</li>
+            </ul>
+            <h5 class="list-el" style="font-weight: 700;">CGPA: 3.4</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-4">
+    <div id="projects-div" class="subsection">
+      <h1 class="subhead-title">Projects & Experiences</h1>
+      <hr class="my-4">
+      <div class="subhead-container">
+        <div class="row" style="margin-bottom: 100px; margin-top: 100px;">
+          <div class="col-6 col-md-5">
+            <img id="treal-logo" src="https://instagram.fyhu2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/58409103_629616254133017_5053002094214204030_n.jpg?_nc_ht=instagram.fyhu2-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=sELvwf_PjbMAX8q0Stn&oh=31a9cf7cadf9d67383865e204799db80&oe=5EF8C12A"> 
+          </div>
+          <div class="col-6 col-md-7">
+            <h5 id="treal-header">Treal.</h5>
+            <p class="list-el" style="font-weight: 700;">(2017-2019)</p>
+            <ul>
+              <li class="list-el">2-sided mobile marketplace for independent clothing creators</li>
+              <li class="list-el">Built using Swift, Firebase, Stripe Connect, Node.JS</li>
+              <li class="list-el">Pitched to a startup incubator (D3) and a story about the app ran in the local paper </li>
+              <li class="list-el">Coordinated with 10 different brands to launch the application</li>
+              <li class="list-el">Successfully launched on the App Store and downloaded over 1000 times</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4">
+        <div class="row" style="margin-bottom: 100px; margin-top: 100px;">
+          <div class="col-6 col-md-5">
+            <img id="cortex-logo" src="images/cortex.png">
+          </div>
+          <div class="col-6 col-md-7">
+            <h5 id="cortex-header">CortexGH.</h5>
+            <p class="list-el" style="font-weight: 700;">(March 2019 - Present)</p>
+            <ul>
+              <li class="list-el">Automated the internal ticket import system (Python, Bash, Powershell)</li>
+              <li class="list-el">Successfully learned application packaging and software center management using S.C.C.M.</li>
+              <li class="list-el">Built the reporting scripts used for billing, which avoided the need to sift through tickets one by one</li>
+              <li class="list-el">Did some administrative work on the ticketing system (creating users, granting permission, modifying ticket workflow)</li>
+              <li class="list-el">Gained full employment after my 4 month internship</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4">
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
